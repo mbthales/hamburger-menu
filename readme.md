@@ -1,4 +1,4 @@
-# hamburger-menu
+# Hamburger menu
 A responsive menu.
 
 ## Usage
