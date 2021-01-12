@@ -9,6 +9,7 @@
   border: 0;
   box-sizing: border-box;
   margin: 0;
+
   line-height: 1.5;
   list-style: none;
   text-decoration: none;
@@ -57,19 +58,25 @@ header{
   align-items: center;
   background-color: #000;
   position: absolute;
-  height: 100%;
-  width: 100%;
-  color: #fff;
   top: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
+
+  color: #fff;
   font-size: 1.4rem;
   text-align: center;
+
+  a{
+    color: #fff;
+  }
 }
 
 .close-mobile-menu-btn{
   position: absolute;
   top: 50px;
   right: 50px;
+  
   font-size: 2rem;
 }
 

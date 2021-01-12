@@ -53,13 +53,16 @@ header {
   align-items: center;
   background-color: #000;
   position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   color: #fff;
-  top: 0;
-  left: 0;
   font-size: 1.4rem;
   text-align: center;
+}
+.mobile-menu-active a {
+  color: #fff;
 }
 
 .close-mobile-menu-btn {
