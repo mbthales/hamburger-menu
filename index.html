@@ -10,13 +10,20 @@
   <header>
     <h1>Thales</h1>
     <div>
-      <nav>
-        <ul data-js="menu" class="menu menu-desktop">
-          <li>Contato</li>
-          <li>Sobre Mim</li>
+      <nav class="desktop-menu">
+        <ul>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Sobre Mim</a></li>
         </ul>
       </nav>
-      <span data-js="hamburguer-menu" class="hamburguer-icon"><img src="./src/img/hamburger.png"></span>
+      <nav data-js="mobile-menu" class="mobile-menu-disabled">
+        <span data-js="close-mobile-menu-btn" class="close-mobile-menu-btn">X</span>
+        <ul>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Sobre Mim</a></li>
+        </ul>
+      </nav>
+      <img data-js="hamburger-btn" class="hamburger-btn" src="./src/img/hamburger.png">
     </div>
   </header>
 
