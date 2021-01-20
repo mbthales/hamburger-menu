@@ -16,20 +16,20 @@
 }
 
 html,
-body{
+body {
   height: 100%;
 }
 
-body{
+body {
   font-size: 20px;
 }
 
-header{
+header {
   @include centralize();
   padding: 50px;
 }
 
-.desktop-menu{
+.desktop-menu {
   width: 200px;
 
   ul{
@@ -41,17 +41,17 @@ header{
   }
 }
 
-.hamburger-btn{
+.hamburger-btn {
   display: none;
   width: 50px;
   height: 50px;
 }
 
-.mobile-menu-disabled{
+.mobile-menu-disabled {
   display: none;
 }
 
-.mobile-menu-active{
+.mobile-menu-active {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +72,7 @@ header{
   }
 }
 
-.close-mobile-menu-btn{
+.close-mobile-menu-btn {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -81,11 +81,11 @@ header{
 }
 
 @media(max-width: 500px){
-  .desktop-menu{
+  .desktop-menu {
     display: none;
   }
 
-  .hamburger-btn{
+  .hamburger-btn {
     display: block;
   }
 }
